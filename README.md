@@ -1,7 +1,3 @@
-## Zoho Auth
+# Zoho Auth
 
-Zoho OAuth App for Frappe
-
-#### License
-
-mit
+This app integrates Zoho OAuth2 login with Frappe via Social Login Key.
