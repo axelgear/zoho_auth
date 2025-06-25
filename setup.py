@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='zoho_auth',
-    version='0.0.1',
-    description='Zoho OAuth app for Frappe',
-    author='AxelGear',
-    author_email='rejithr1995@gmail.com',
+    name="zoho_auth",
+    version="0.1.0",
+    description="Zoho OAuth2 login for Frappe",
+    author="AxelGear",
+    author_email="rejithr1995@gmail.com",
     packages=find_packages(),
-    zip_safe=False,
     include_package_data=True,
-    install_requires=['frappe'],
+    zip_safe=False,
+    install_requires=["frappe"],
 )
