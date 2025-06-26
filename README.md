@@ -1,6 +1,6 @@
 ### Zoho Auth
 
-Zoho OAuth2 login for Frappe
+Zoho OAuth2 login for Frappe ERP Next
 
 ### Installation
 
