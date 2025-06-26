@@ -106,9 +106,9 @@ def get_default_provider_values():
     base = "https://accounts.zoho.com"
     return {
         "base_url": base,
-        "authorize_url": f"{base}/oauth/v2/auth",
-        "access_token_url": f"{base}/oauth/v2/token",
-        "api_endpoint": f"{base}/oauth/v2/userinfo",
+        "authorize_url": f"/oauth/v2/auth",
+        "access_token_url": f"/oauth/v2/token",
+        "api_endpoint": f"/oauth/v2/userinfo",
         "redirect_url": "/api/method/zoho_auth.api.login_via_zoho",
         "auth_url_data": json.dumps({
             "scope": "openid email profile",
